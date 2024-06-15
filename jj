@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Culinária Italiana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .header {
+            background-color: #ff5733;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .course-info {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .course-info h2 {
+            color: #ff5733;
+        }
+        .signup-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .signup-form input, .signup-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .signup-form button {
+            background-color: #ff5733;
+            color: white;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .signup-form button:hover {
+            background-color: #e04e2b;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Curso de Culinária Italiana</h1>
+        <p>Aprenda a arte da culinária italiana com os melhores chefs!</p>
+    </div>
+
+    <div class="container">
+        <div class="course-info">
+            <h2>Sobre o Curso</h2>
+            <p>Nosso curso de culinária italiana oferece uma experiência única e autêntica. Aprenda a preparar pratos tradicionais e modernos, explorando técnicas e ingredientes que farão de você um verdadeiro chef italiano.</p>
+        </div>
+
+        <div class="course-info">
+            <h2>O que você vai aprender?</h2>
+            <ul>
+                <li>Massas frescas e secas</li>
+                <li>Molhos clássicos italianos</li>
+                <li>Pratos principais como Lasanha, Risotto e Polenta</li>
+                <li>Sobremesas deliciosas como Tiramisu e Panna Cotta</li>
+            </ul>
+        </div>
+
+        <div class="course-info">
+            <h2>Inscreva-se Agora!</h2>
+            <p>Preencha o formulário abaixo para garantir sua vaga no nosso próximo curso.</p>
+        </div>
+
+        <div class="signup-form">
+            <form action="https://example.com/submit" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem (opcional):</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Inscreva-se</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Curso de Culinária Italiana. Todos os direitos reservados.</p>
+    </div>
+
+</body>
+</html>
